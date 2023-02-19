@@ -176,7 +176,8 @@ export const projectData: IProjectCard[] = [
     urlLive: "",
     urlGit: "",
     body: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus pharetra feugiat. Aenean quis est eu arcu sodales imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer urna dui, imperdiet quis leo in, molestie finibus neque. Ut mollis a nibh nec ullamcorper. Donec consequat dui a magna.",
+      "This project was born at Discovery College in the design department. The teachers and I wanted a system to manage and inspect our machine park.",
+      "This is a .NET base project targeting WPF, ASP and Xamarin. This project is not available on my github as it is developed specifically for our college. I'm planning to create an open source React/NodeJS version so stay tuned...",
     ],
   },
 ];
