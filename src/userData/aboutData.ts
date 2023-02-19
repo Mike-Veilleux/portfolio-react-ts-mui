@@ -1,4 +1,4 @@
-import { IAboutData } from "../component/interfaces";
+import { IAboutData } from "../interfaces/interfaces";
 
 export const aboutData: IAboutData = {
   fullName: "Mike Veilleux",

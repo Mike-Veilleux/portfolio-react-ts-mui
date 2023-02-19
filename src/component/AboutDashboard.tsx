@@ -1,6 +1,6 @@
 import { Box, Grid, IconButton, Stack, Typography } from "@mui/material";
 import avatar from "../assets/Mike_Veilleux_500px.jpg";
-import { IAboutData } from "./interfaces";
+import { IAboutData } from "../interfaces/interfaces";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 

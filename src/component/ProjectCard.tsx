@@ -10,7 +10,7 @@ import {
   AccordionSummary,
   Grid,
 } from "@mui/material";
-import { IProjectCard } from "./interfaces";
+import { IProjectCard } from "../interfaces/interfaces";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Paragraph from "./Paragraph";
 

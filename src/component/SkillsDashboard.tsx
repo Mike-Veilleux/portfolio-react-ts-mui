@@ -1,6 +1,6 @@
 import { Box, LinearProgress, Typography } from "@mui/material";
 import { Stack } from "@mui/system";
-import { ISkillData } from "./interfaces";
+import { ISkillData } from "../interfaces/interfaces";
 
 type SkillsDashboardProps = {
   data: ISkillData[];

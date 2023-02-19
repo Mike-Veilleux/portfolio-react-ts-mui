@@ -39,7 +39,7 @@ const myTheme = createTheme({
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-react-ts-mui">
       <ThemeProvider theme={myTheme}>
         <CssBaseline />
         <Routes>

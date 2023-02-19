@@ -1,4 +1,4 @@
-import { IProjectCard } from "../component/interfaces";
+import { IProjectCard } from "../interfaces/interfaces";
 /*
 {
 title: "",
