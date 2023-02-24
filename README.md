@@ -4,7 +4,7 @@
 
 This repo contains the component based with SPA routing exercise from my MIT Full Stack development course.
 
-Live site [here](https://mike-veilleux.github.io/portfolio-react-ts-mui)
+Live site [here](https://mike-veilleux.github.io/portfolio-react-ts-mui/#/)
 
 <!-- <img src="https://github.com/Mike-Veilleux/Tic-Tac-Toe_Exercise/blob/main/src/assets/Tic-Tac-Toe_Screenshot.png"> -->
 
