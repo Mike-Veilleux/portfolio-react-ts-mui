@@ -7,9 +7,9 @@ type SkillsDashboardProps = {
 };
 
 const SkillsDashboard = ({ data }: SkillsDashboardProps) => {
-  const renderSkills = data.map((skill) => {
+  const renderSkills = data.map((skill, index) => {
     return (
-      <Stack direction={"column"}>
+      <Stack key={index} direction={"column"}>
         <Typography color="text.primary">{skill.name}</Typography>
         <Box sx={{ display: "flex", alignItems: "center", width: "500px" }}>
           <Box sx={{ width: "100%", mr: 1 }}>

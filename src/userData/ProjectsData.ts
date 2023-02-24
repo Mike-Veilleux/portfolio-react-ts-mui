@@ -11,6 +11,21 @@ body: "",
 
 export const projectData: IProjectCard[] = [
   {
+    title: "Currency Converter",
+    urlScreenshot:
+      "https://raw.githubusercontent.com/Mike-Veilleux/Currency-Converter/main/src/assets/currency-converter.png",
+    urlLive: "https://mike-veilleux.github.io/Currency-Converter/",
+    urlGit: "https://github.com/Mike-Veilleux/Currency-Converter",
+    body: [
+      "A currency conversion app created with React, Material UI, Typescript, Zustand and Vite toolchain. This exercise is focusing on the following aspects:",
+      "- API calls for data fetching",
+      "- State management with Zustand",
+      "- Component based architecture",
+      "- Usage of useEffect",
+    ],
+  },
+
+  {
     title: "Tic Tac Toe",
     urlScreenshot:
       "https://raw.githubusercontent.com/Mike-Veilleux/Tic-Tac-Toe_Exercise/main/src/assets/Tic-Tac-Toe_Screenshot.png",
@@ -66,21 +81,6 @@ export const projectData: IProjectCard[] = [
       "- State management",
       "- Component base structure",
       "- Passing States as props to components",
-    ],
-  },
-  {
-    title: "Currency Converter",
-    urlScreenshot:
-      "https://raw.githubusercontent.com/Mike-Veilleux/Fetch-Currency/main/src/assets/Fetch-Currency.png",
-    urlLive: "", //"https://mike-veilleux.github.io/Fetch-Currency/",
-    urlGit: "https://github.com/Mike-Veilleux/Fetch-Currency",
-    body: [
-      "A currency conversion app using React, Axios and Vite toolchain. I'm using this API for exchangerate references. This exercise is focusing on aspects:",
-      "- State management with async API call",
-      "- Component based architecture",
-      "- Usage of useEffect",
-      "- Usage of Props",
-      "- Usage of reducers",
     ],
   },
 

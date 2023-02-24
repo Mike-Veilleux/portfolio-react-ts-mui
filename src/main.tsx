@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import "../index.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 
 const myTheme = createTheme({
   typography: {
@@ -39,13 +39,14 @@ const myTheme = createTheme({
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-react-ts-mui">
+    {/* <HashRouter basename="/portfolio-react-ts-mui"> */}
+    <HashRouter>
       <ThemeProvider theme={myTheme}>
         <CssBaseline />
         <Routes>
           <Route path="/*" element={<App />} />
         </Routes>
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );

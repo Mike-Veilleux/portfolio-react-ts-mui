@@ -4,9 +4,10 @@ type ParagraphProps = {
 };
 
 const Paragraph = ({ text }: ParagraphProps) => {
-  const renderCardBody = text.map((textChunk) => {
+  const renderCardBody = text.map((textChunk, index) => {
     return (
       <Typography
+        key={index}
         variant="body2"
         color="text.secondary"
         align="justify"
